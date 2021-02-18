@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  background-color: #30675d;
+  font-family: sans-serif;
+}
+
+.todo-container {
+  width: 350px;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.handleChanges {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.header {
+  margin: 0;
+  margin-bottom: 15px;
+  color: #1b4e44;
+}
+
+.input-section {
+  background-color: #123831;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px #00f1f1;
+}
+
+input::placeholder {
+  color: #3d8c7d;
+}
+
+.input-section input {
+  border-radius: 3px;
+  border: 1px solid #206d5d;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #123831;
+  outline: none;
+  color: #3d8c7d;
+}
+
+.ul-section {
+  text-align: left;
+  padding: 0;
+}
+
+.ul-section .list {
+  list-style: none;
+  background-color: #123831;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  color: #2a6156;
+  box-shadow: 0 4px 6px #0f4c46;
+  display: flex;
+}
+
+.ul-section .list .i {
+  text-align: right;
+  flex: 1;
+  cursor: pointer;
+}
+
+.deleteIcon {
+  cursor: pointer;
+}
+
+.commend {
+  display: flex;
+  margin-left: auto;
+}
+
+/* popup */
+
+.modal {
+  font-size: 12px;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+
+.button {
+  color: green;
+  background-color: #163832;
+  border-style: none;
+}
